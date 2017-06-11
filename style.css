@@ -192,7 +192,7 @@ footer {
 	color: #F5F5F5;
 }
 /*---- Media ----*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 	header {
 		position: relative;
 	}
