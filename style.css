@@ -6,17 +6,12 @@
 	border: 0;
 }
 body {
-	background: #16576A;
+	background: #FFFFFF;
 	color: #67727A;
 	font-family: 'Alegreya', Sans-serif;
 	margin: 0;
 }
-h2 {
-	font-size: 250%;
-	font-weight: 700;
-	padding-top: 2%;
-	text-align: center;
-}
+
 
 p {
 	font-family: "Alegreya Sans", Sans-serif;
@@ -46,17 +41,17 @@ header{
 }
 
 #logo {
-	margin: 20px;
+	margin: 10px 20px 0 20px;
 	float: left;
-	width: 200px;
-	height: 60px;
+	width: 100px;
+	height: 50px;
 	background: url(img/logo.png) no-repeat;
 	background-size: contain;
 }
 
 nav {
 	float: right;;
-	padding: 25px 20px 0 0; 
+	padding: 15px 10px 0 0; 
 }
 
 #menu-icon {
@@ -96,7 +91,6 @@ nav ul li a:hover {
 
 .banner {
 	width: 100%;
-	background-color: #16576A;
 }
 
 .banner-inner {
@@ -129,47 +123,53 @@ aside {
 	height: auto;
 }
 
-#worship2 {
-	background-color: #16576A;
+
+
+
+.blog-text p{
+	color: #333333;
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 10px;
+	font-size: 120%;
+	font-family: Montserrat light ;
+	text-align: left;
+}
+.banner .blogs {
+	/*width: 80%;
+	padding-left: 10%;
+	padding-top: 5%;*/
+	background-color: #FFFFFF;
+}
+.bio h2{
+
+	font-weight: 700;
+	padding-top: 2%;
+	text-align: left;
+	padding: 0 0 0% 10%;
 }
 
-.ministries2 {
-	float: left;
-	width: 100%;
-	background-color: #16576A;
+.blog-text a{
+	color: #16576A;
+	text-decoration: none;
+	font-size: 80%;
+}
+.blog-text a:hover {
+	color: #e3e3e3;;
 }
 
-.ministries3 {
-	float: left;
-	width: 100%;
-	background-color: #16576A;
+.quotes {
+	display: block;
+    float: right;
+    background-color: #104f5e;
+    color: #f7f8f7;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    width: 20%;
+    margin:5% 10% 0 0;
 }
 
-.jumbotron {
-  /*display: flex;*/
-  align-items: center;
-  background-image: url('img/comeall.jpg') ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  height: 700px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-  text-decoration: none;
-
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
 
 footer {
 	background-color: #16576A;
@@ -183,14 +183,37 @@ footer {
 	display: inline;
 }
 .social i{
-	font-size: 350%;
-	margin: 1%;
-	padding: 5% 5% 5% 4%;
+	font-size: 250%;
+	margin: 0%;
+	padding: 5% 5% 0% 4%;
 	color: #C3D7DF;
 }
 .social i:hover {
 	color: #F5F5F5;
 }
+
+.second p {
+	text-align: center;
+	font-size: 75%;
+}
+
+.media  {
+	width: 32.333333%;
+	float: left;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 0.5%;
+	padding-bottom: 1%;
+}
+
+.media:hover {
+
+	background-color: #e3e3e3;
+	
+}
+
+
+
 /*---- Media ----*/
 @media screen and (max-width: 900px) {
 	header {
@@ -221,6 +244,16 @@ footer {
 		text-align: center;
 		width: 100%;
 		padding: 10px 0;
+}
+.quotes {
+    margin: 0.5em 0 1em 1.5em;
+    padding-right: 5%;
+    float: right;
+    background-color: #104f5e;
+    color: #f7f8f7;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
 }
 
 }
