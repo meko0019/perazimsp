@@ -99,6 +99,10 @@ nav ul li a:hover {
 	float: left;
 }
 
+.banner-inner:hover {
+	opacity: 1;
+}
+
 .ministries {
 	float: left;
 	width: 100%;
@@ -124,7 +128,16 @@ aside {
 }
 
 
+.blogs img {
 
+	width: 70%;
+	padding: 5% 10% 5% 15%;
+	
+}
+
+.blogs img:hover {
+	opacity: 0.9;
+}
 
 .blog-text p{
 	color: #333333;
@@ -161,15 +174,35 @@ aside {
 .quotes {
 	display: block;
     float: right;
-    background-color: #104f5e;
-    color: #f7f8f7;
+    background-color: #ffffff;
+    color: #000000;
     font-weight: 700;
     text-align: center;
     font-size: 18px;
     width: 20%;
-    margin:5% 10% 0 0;
+    margin:0% 3% 0% 0%;
+	border-left: thin solid #ff0000;
 }
 
+.quotes2 {
+	display: block;
+    float: right;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 700;
+    text-align: right;
+    font-size: 18px;
+    width: 20%;
+    margin:1% 3% 0% 2%;
+	border-left: thin solid #ff0000;
+}
+
+h3 {
+	text-align: left;
+	padding: 0 0 0% 10%;
+	color: #444444;
+
+}
 
 footer {
 	background-color: #16576A;
@@ -246,14 +279,26 @@ footer {
 		padding: 10px 0;
 }
 .quotes {
-    margin: 0.5em 0 1em 1.5em;
+    margin: 0.5em 0 1em 0.5em;
     padding-right: 5%;
     float: right;
-    background-color: #104f5e;
-    color: #f7f8f7;
+    background-color: #ffffff;
+    color: #000000;
     font-weight: 700;
     text-align: center;
     width: 50%;
+}
+.quotes2 {
+    margin: 0.5em 0 1em 1.5em;
+    padding-right: 5%;
+    float: right;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+    border-left: thin solid #ff0000;
+
 }
 
 }
