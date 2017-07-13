@@ -88,46 +88,60 @@ nav ul li a:hover {
 }
 /* Header ends here */
 
-
-.banner {
-	width: 100%;
-}
-
 .banner-inner {
 	width: 100%;
 	margin: 0 auto;
 	float: left;
+	padding-bottom: 5%;
 }
 
 .banner-inner:hover {
-	opacity: 1;
+	opacity: 0.97;
 }
 
-.ministries {
-	float: left;
-	width: 100%;
+.about h3{
+	color: black;
+	text-align: center;
 	background-color: #16576A;
+	font-weight: 300;
+	font-size: 60px;
+	padding: 10px;
 }
+.about h4 {
+	background-color: #16576A;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px 30px 10px 30px;
+	border-top: 6px solid black;
+	border-bottom: 6px solid black;
+	font-weight: 300;
 
-article {
-	float: left;
-	margin: 0 auto;
+}
+.mount-perazim p{
+	color: #16576A;
+}
+.left {
 	width: 50%;
-	height: auto;
+	float: left;
+	background-color: white;
+	padding-top: 10%;
+	padding-bottom: 13.6%;
 }
-
-#worship {
-	background-color: #16576A;
-}
-
-aside {
+.right{
+	width: 50%;
 	float: right;
-	margin: 0 auto;
-	width: 50%;
-	height: auto;
+	background-color: white;
 }
 
-
+.mount-perazim h2, a{
+	text-align: center;
+	color: #16576A;
+	text-decoration: none;
+}
+.mount-perazim a:hover{
+	color: black;
+}
 .blogs img {
 
 	width: 70%;
@@ -149,9 +163,6 @@ aside {
 	text-align: left;
 }
 .banner .blogs {
-	/*width: 80%;
-	padding-left: 10%;
-	padding-top: 5%;*/
 	background-color: #FFFFFF;
 }
 .bio h2{
@@ -204,6 +215,8 @@ h3 {
 
 }
 
+/*footer begins here*/
+
 footer {
 	background-color: #16576A;
 	width: 100%;
@@ -240,9 +253,7 @@ footer {
 }
 
 .media:hover {
-
 	background-color: #e3e3e3;
-	
 }
 
 
