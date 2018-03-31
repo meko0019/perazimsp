@@ -67,6 +67,31 @@
         </div>
         <div class="section section-about-us">
             <div class="container">
+                <div class="row justify-content-md-center">
+                <div class="card text-center" style="width: 23rem">
+                  <img class="card-img" src="assets/img/glory.jpg" alt="Card image">
+                  <div class="card-img-overlay">
+                      <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text"></p>
+                          </div>  
+                          <br> <br> <br> 
+
+                   <div class="card-footer bg-transparent " >
+                <!-- Noscript content for added SEO -->
+                <noscript><a href="https://www.eventbrite.com/e/glory-18-tickets-44691033083" rel="noopener noreferrer" target="_blank"></noscript>
+                <!-- You can customize this button any way you like -->
+                <button class="btn btn-danger btn-lg" id="eventbrite-widget-modal-trigger-44691033083" type="button">Buy Tickets</button>
+                <noscript></a>Buy Tickets on Eventbrite</noscript> 
+                   </div>
+                  </div>
+                </div> 
+
+                </div> 
+
+
+<br>
+<br>
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
                         <h3 class="title">THE GOSPEL IS THE POWER OF SALVATION </h3>
@@ -208,4 +233,19 @@
       }
     </script>
 
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '44691033083',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-44691033083',
+            onOrderComplete: exampleCallback
+        });
+    </script>
 </html>
